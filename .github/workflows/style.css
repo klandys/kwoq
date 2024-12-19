@@ -1,0 +1,923 @@
+.frame {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 7434px;
+  position: relative;
+}
+.frame .image-2 {
+  position: relative;
+  z-index: 2;
+  width: 100px; /* Размер изображения */
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+.frame .image-2:hover {
+  transform: scale(1.2) translateY(-10px); /* Увеличиваем изображение и поднимаем его */
+  opacity: 0.9; /* Чуть уменьшаем прозрачность при наведении */
+}
+.frame .overlap {
+  position: absolute;
+  width: 1920px;
+  height: 153px;
+  top: 0;
+  left: 0;
+}
+
+.frame .rectangle {
+  width: 1920px;
+  height: 107px;
+  left: 0;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+}
+
+.frame .image {
+  width: 130px;
+  height: 148px;
+  top: 5px;
+  left: 43px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .text-wrapper,
+.frame .text-wrapper-2,
+.frame .text-wrapper-3,
+.frame .text-wrapper-4,
+.frame .text-wrapper-5 {
+position: absolute;
+font-family: "Inter-Regular", Helvetica;
+font-weight: 400;
+color: #000000; /* Черный цвет текста */
+font-size: 30px;
+white-space: nowrap;
+letter-spacing: 0;
+line-height: normal;
+transition: color 0.3s ease, transform 0.3s ease; /* Плавный переход для цвета и увеличения */
+}
+
+.frame .text-wrapper:hover,
+.frame .text-wrapper-2:hover,
+.frame .text-wrapper-3:hover,
+.frame .text-wrapper-4:hover,
+.frame .text-wrapper-5:hover {
+color: #0000ff; 
+transform: scale(1.05); 
+}
+
+.frame .text-wrapper {
+width: 206px;
+top: 56px;
+left: 271px;
+}
+
+.frame .text-wrapper-2 {
+width: 244px;
+top: 59px;
+left: 542px;
+}
+
+.frame .text-wrapper-3 {
+width: 197px;
+top: 61px;
+left: 960px;
+}
+
+.frame .text-wrapper-4 {
+width: 119px;
+top: 61px;
+left: 1319px;
+}
+
+.frame .text-wrapper-5 {
+width: 149px;
+top: 59px;
+left: 1576px;
+}
+.frame .overlap-group {
+  position: absolute;
+  width: 783px;
+  height: 504px;
+  top: 783px;
+  left: 1000px;
+  background-color: #6f7df9;
+  border-radius: 30px;
+}
+
+.frame .flexcontainer {
+  width: 533px;
+  height: 343px;
+  left: 134px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+  position: relative;
+  top: 79px;
+}
+
+.frame .text {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: 1.75px;
+  line-height: normal;
+}
+
+.frame .span {
+  letter-spacing: 0.61px;
+}
+
+.frame .flexcontainer-wrapper {
+  position: absolute;
+  width: 765px;
+  height: 504px;
+  top: 783px;
+  left: 137px;
+  background-color: #6f7df9;
+  border-radius: 30px;
+}
+
+.frame .flexcontainer-2 {
+  width: 595px;
+  height: 333px;
+  left: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+  position: relative;
+  top: 79px;
+}
+.line-container {
+  position: relative; /* Для корректного позиционирования */
+  width: 100%; /* Ширина на всю страницу */
+  display: flex; /* Используем flexbox для выравнивания */
+  justify-content: center; /* Выравниваем по горизонтали */
+  align-items: center; /* Выравниваем по вертикали (если нужно) */
+  margin-top: 10px; /* Отступ сверху от текста */
+}
+
+/* Картинка линии */
+.line-image {
+  width: 100%; /* Ширина линии на всю доступную ширину */
+  max-width: 500px; /* Максимальная ширина линии (по желанию) */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+.frame .overlap-2 {
+  position: absolute;
+  width: 1920px;
+  height: 242px;
+  top: 179px;
+  left: 0;
+  background-image: url(./img/vector-1.png);
+  background-size: 100% 100%;
+}
+
+.frame .text-wrapper-6 {
+  width: 1530px;
+  top: 56px;
+  left: 121px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #4251d9;
+  font-size: 80px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .p {
+  top: 153px;
+  left: 121px;
+  font-family: "Inter-ExtraLight", Helvetica;
+  font-weight: 200;
+  color: #8a95ff;
+  font-size: 45px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-7 {
+  width: 1530px;
+  top: 1432px;
+  left: 121px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #4251d9;
+  font-size: 80px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .overlap-3 {
+  position: absolute;
+  width: 1530px;
+  height: 85px;
+  top: 634px;
+  left: 137px;
+}
+
+.frame .text-wrapper-8 {
+  width: 1530px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #4251d9;
+  font-size: 70px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .div-wrapper {
+  position: absolute;
+  width: 1920px;
+  height: 236px;
+  top: 2152px;
+  left: 0;
+  background-image: url(./img/vector-2.svg);
+  background-size: 100% 100%;
+}
+
+.frame .text-wrapper-9 {
+  width: 996px;
+  top: 102px;
+  left: 462px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #4251d9;
+  font-size: 70px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-10 {
+  width: 472px;
+  top: 4264px;
+  left: 163px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #4251d9;
+  font-size: 70px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .overlap-4 {
+  position: absolute;
+  width: 654px;
+  height: 399px;
+  top: 5912px;
+  left: 263px;
+  border-radius: 30px;
+}
+
+.frame .text-wrapper-11 {
+  width: 352px;
+  top: 31px;
+  left: 71px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #4251d9;
+  font-size: 70px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .element {
+  position: absolute;
+  width: 398px;
+  top: 145px;
+  left: 71px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #6f7df9;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .mask-group {
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  top: 46px;
+  left: 462px;
+}
+
+.frame .rectangle-2 {
+  width: 654px;
+  height: 399px;
+  left: 0;
+  border-radius: 30px;
+  border: 3px solid;
+  border-color: #6f7df9;
+  position: absolute;
+  top: 0;
+}
+
+.frame .line {
+  top: 512px;
+  left: 133px;
+  position: absolute;
+  width: 1651px;
+  height: 5px;
+}
+
+.frame .img {
+  top: 2087px;
+  left: 126px;
+  position: absolute;
+  width: 1651px;
+  height: 5px;
+}
+
+.frame .line-2 {
+  top: 4121px;
+  left: 158px;
+  position: absolute;
+  width: 1651px;
+  height: 5px;
+}
+
+.frame .overlap-5 {
+  position: absolute;
+  width: 1920px;
+  height: 1362px;
+  top: 4479px;
+  left: 0;
+}
+
+.frame .line-3 {
+  top: 1250px;
+  left: 158px;
+  position: absolute;
+  width: 1651px;
+  height: 5px;
+}
+
+.frame .vector {
+  position: absolute;
+  width: 1920px;
+  height: 350px;
+  top: 1012px;
+  left: 0;
+}
+
+.frame .rectangle-3 {
+  width: 1669px;
+  height: 1110px;
+  left: 136px;
+  background-color: #6f7df9;
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+}
+
+.frame .mini-VK-apps-IT {
+  width: 699px;
+  top: 326px;
+  left: 218px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 35px;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-12 {
+  width: 852px;
+  top: 113px;
+  left: 218px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 45px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .ellipse {
+  position: absolute;
+  width: 640px;
+  height: 611px;
+  top: 274px;
+  left: 1094px;
+  background-color: #ffffff;
+  border-radius: 320px / 305.5px;
+}
+
+.frame .image-2 {
+  width: 768px;
+  height: 768px;
+  top: 161px;
+  left: 987px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .line-4 {
+  top: 6924px;
+  left: 154px;
+  position: absolute;
+  width: 1651px;
+  height: 5px;
+}
+
+.frame .overlap-6 {
+  position: absolute;
+  width: 1642px;
+  height: 1555px;
+  top: 2396px;
+  left: 163px;
+  background-color: #6f7df9;
+  border-radius: 30px;
+}
+
+.frame .image-3 {
+  width: 321px;
+  height: 401px;
+  top: 50px;
+  left: 50px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .image-4 {
+  width: 321px;
+  height: 401px;
+  top: 50px;
+  left: 457px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .image-5 {
+  width: 321px;
+  height: 401px;
+  top: 50px;
+  left: 865px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .image-6 {
+  width: 321px;
+  height: 401px;
+  top: 50px;
+  left: 1271px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .text-wrapper-13 {
+  position: absolute;
+  width: 316px;
+  top: 520px;
+  left: 55px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-14 {
+  width: 316px;
+  top: 1336px;
+  left: 462px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 17px;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-15 {
+  position: absolute;
+  width: 316px;
+  top: 1336px;
+  left: 55px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-16 {
+  position: absolute;
+  width: 316px;
+  top: 1336px;
+  left: 865px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-17 {
+  width: 316px;
+  top: 1329px;
+  left: 1272px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 17px;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-18 {
+  width: 316px;
+  top: 520px;
+  left: 462px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 17px;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-19 {
+  position: absolute;
+  width: 316px;
+  top: 516px;
+  left: 872px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-20 {
+  width: 316px;
+  top: 520px;
+  left: 1276px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 17px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .image-7 {
+  width: 321px;
+  height: 401px;
+  top: 864px;
+  left: 50px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .image-8 {
+  width: 321px;
+  height: 401px;
+  top: 864px;
+  left: 457px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .image-9 {
+  width: 321px;
+  height: 401px;
+  top: 864px;
+  left: 865px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .image-10 {
+  width: 321px;
+  height: 401px;
+  top: 864px;
+  left: 1271px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.frame .text-wrapper-21 {
+  top: 1272px;
+  left: 457px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 35px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-22 {
+  top: 1272px;
+  left: 865px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 35px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-23 {
+  top: 1272px;
+  left: 1271px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 35px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-24 {
+  top: 464px;
+  left: 51px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 35px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-25 {
+  top: 1271px;
+  left: 51px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 35px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-26 {
+  top: 464px;
+  left: 461px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 35px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-27 {
+  top: 464px;
+  left: 870px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 35px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-28 {
+  top: 464px;
+  left: 1278px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 35px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .overlap-7 {
+  position: absolute;
+  width: 654px;
+  height: 399px;
+  top: 5912px;
+  left: 1130px;
+  border-radius: 30px;
+}
+
+.frame .element-2 {
+  position: absolute;
+  width: 398px;
+  top: 50px;
+  left: 123px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #6f7df9;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .overlap-8 {
+  position: absolute;
+  width: 654px;
+  height: 399px;
+  top: 6375px;
+  left: 263px;
+  border-radius: 30px;
+}
+
+.frame .element-3 {
+  top: 55px;
+  left: 60px;
+  position: absolute;
+  width: 398px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #6f7df9;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .overlap-9 {
+  position: absolute;
+  width: 654px;
+  height: 399px;
+  top: 6375px;
+  left: 1130px;
+  border-radius: 30px;
+}
+
+.frame .element-4 {
+  top: 49px;
+  left: 128px;
+  position: absolute;
+  width: 398px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #6f7df9;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* Общий стиль для всех блоков */
+.frame .overlap-10, 
+.frame .overlap-11, 
+.frame .overlap-12, 
+.frame .overlap-13, 
+.frame .overlap-14, 
+.frame .overlap-15, 
+.frame .overlap-16 {
+  position: absolute;
+  height: 86px;
+  background-color: #6f7dfa;
+  border-radius: 30px;
+  display: flex; /* Flex-контейнер */
+  align-items: center; /* Центрируем по вертикали */
+  justify-content: center; /* Центрируем по горизонтали */
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Плавная анимация */
+}
+
+/* Анимация при наведении */
+.frame .overlap-10:hover,
+.frame .overlap-11:hover,
+.frame .overlap-12:hover,
+.frame .overlap-13:hover,
+.frame .overlap-14:hover,
+.frame .overlap-15:hover,
+.frame .overlap-16:hover {
+  transform: translateY(-10px); /* Поднимаем блок вверх */
+  background-color: #5a68d1; /* Меняем цвет фона */
+}
+
+/* Текст внутри блоков */
+.frame .text-wrapper-29,
+.frame .text-wrapper-30,
+.frame .text-wrapper-31,
+.frame .text-wrapper-32,
+.frame .text-wrapper-33 {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  text-align: center;
+  margin: 0; /* Убираем отступы */
+  transition: color 0.3s ease; /* Плавная анимация текста */
+}
+
+/* Изменение цвета текста при наведении */
+.frame .overlap-10:hover .text-wrapper-29,
+.frame .overlap-11:hover .text-wrapper-29,
+.frame .overlap-12:hover .text-wrapper-30,
+.frame .overlap-13:hover .text-wrapper-31,
+.frame .overlap-14:hover .text-wrapper-32,
+.frame .overlap-15:hover .text-wrapper-29,
+.frame .overlap-16:hover .text-wrapper-33 {
+  color: #e0e0ff; /* Меняем цвет текста на голубоватый */
+}
+
+/* Индивидуальные размеры и позиции блоков */
+.frame .overlap-10 {
+  width: 745px;
+  top: 1612px;
+  left: 126px;
+}
+
+.frame .overlap-11 {
+  width: 745px;
+  top: 1612px;
+  left: 886px;
+}
+
+.frame .overlap-12 {
+  width: 745px;
+  top: 1722px;
+  left: 126px;
+}
+
+.frame .overlap-13 {
+  width: 400px;
+  top: 1832px;
+  left: 627px;
+}
+
+.frame .overlap-14 {
+  width: 395px;
+  top: 1832px;
+  left: 1051px;
+}
+
+.frame .overlap-15 {
+  width: 477px;
+  top: 1832px;
+  left: 126px;
+}
+
+.frame .overlap-16 {
+  width: 885px;
+  top: 1722px;
+  left: 886px;
+}
+
+
+.frame .image-11 {
+  width: 1901px;
+  height: 457px;
+  top: 6962px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
