@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="globals.css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="frame">
+<div class="div">
+<div class="overlap">
+<div class="rectangle"></div>
+<img class="image" src="img/логотип мидис.png" />
+<div class="text-wrapper" >О кафедре </div>
+<div class="text-wrapper-2">Преподаватели</div>
+<div class="text-wrapper-3">Программы</div>
+<div class="text-wrapper-4">Наука</div>
+<div class="text-wrapper-5">Контакты</div>
+</div>
+<div class="overlap-group">
+<div class="flexcontainer">
+<p class="text">
+<span class="span"><b>Друзья и единомышленники</b><br /></span>
+</p>
+<p class="text">
+<span class="span"
+>У нас ты находишь друзей еще в первую неделю обучения. Мы знаем, насколько важно быть среди своих и
+испытывать эмоциональный комфорт.</span
+>
+</p>
+</div>
+</div>
+<div class="flexcontainer-wrapper">
+<div class="flexcontainer-2">
+<p class="text">
+<span class="span"><b>Современные профессии</b><br /></span>
+</p>
+<p class="text">
+<span class="span"
+>В МИДиС ты получаешь востребованную профессию, профессиональные навыки и компетенции от преподавателей
+практиков, знающих современные запросы заказчиков и тренды.</span
+>
+</p>
+</div>
+</div>
+<div class="overlap-2">
+<img src="img/первый вектор.png" alt="Background Design" class="background-image">
+<div class="text-wrapper-6">Кафедра математики и информатики</div>
+<p class="p">Традиции науки и инновации будущего.</p>
+<div class="line-container">
+<img src="img/линия.png" alt="Line Design" class="line-image">
+</div>
+</div>
+
+<div class="text-wrapper-7">Кем вы можете стать</div>
+<div class="overlap-3">
+<div class="text-wrapper-8">О Кафедре</div>
+<div class="text-wrapper-8">О Кафедре</div>
+</div>
+<div class="div-wrapper">
+<img src="img/первый вектор.png" alt="Background Image" class="background-image">
+<div class="text-wrapper-9">Преподавательский состав</div>
+</div>
+<div class="text-wrapper-10">Бакалавриат</div>
+<div class="overlap-4">
+<div class="text-wrapper-11">Контакты</div>
+<p class="element">
+На данной странице собраны все контакты подразделений, отделов и сотрудников МИДиС<br /><br />График работы:
+понедельник-пятница 09:00-17:00
+</p>
+<img class="mask-group" src="img/Mask group.svg" />
+<div class="rectangle-2"></div>
+</div>
+<img class="line" src="img/line-1.svg" />
+<img class="img" src="img/line-2.svg" />
+<img class="line-2" src="img/line-3.svg" />
+<div class="overlap-5">
+  <img class="line-3" src="img/line-4.svg" />
+  <img class="vector" src="img/vector-3.svg" />
+  <div class="rectangle-3"></div>
+  <p class="mini-VK-apps-IT">
+    Освоите актуальный стек технологий и станете «мидлом» в области создания сложных сайтов и мобильных
+    приложений с функциональной клиентской и серверной частью. Создадите Mini VK Apps и научитесь проектировать
+    архитектуры баз данных для систем любой сложности. Начните путь в IT в качестве разработчика, управляйте
+    разработкой цифровых продуктов в роли продакт-менеджера или запустите свой стартап.<br /><br />Срок
+    обучения: 4 года<br />Форма обучения: Очная<br />Начало занятий: сентябрь 2025 г.
+  </p>
+  <div class="text-wrapper-12">09.03.03 Прикладная информатика</div>
+  <div class="ellipse"></div>
+  <img class="image-2" src="img/фотка ноутбука.png" />
+  
+</div>
+<img class="line-4" src="img/line-5.svg" />
+<div class="overlap-6">
+<img class="image-3" src="img/ярослав голуб.png" />
+<img class="image-4" src="img/роман тарасенко.png" />
+<img class="image-5" src="img/леонид лапидус.png" />
+<img class="image-6" src="img/михаил мажухин.png" />
+<p class="text-wrapper-13">
+Директор IT-компании INTEC, одного из лидера челябинского рынка в сфере разработки и продвижения сайтов,
+интернет-маркетинга, комплексного продвижения и цифровых решений для бизнеса. Спикер более 30 ежегодных
+региональных и федеральных мероприятий. Председатель совета Ассоциации ИТ-компаний Челябинской области,
+соорганизатор бизнес-клуба IT-предпринимателей
+</p>
+<p class="text-wrapper-14">
+Эксперт по машинному обучению, искусственному
+интеллекту, big data, компьютерному зрению, нейросетям. Тренер
+Российской сборной по робототехнике. Выиграла Всероссийский конкурс проектов МГУ им. Ломоносова с практикой
+инновационных
+технологий в IT-образовании
+</p>
+<p class="text-wrapper-15">
+Кандидат физико-математических наук, доцент, разработчик ПО компании «Санаториум». Основатель компетенции
+«Разработка компьютерных игр и мультимедийных приложений Worldskills Russia»
+</p>
+<p class="text-wrapper-16">
+Эксперт по фронтенд-разработке и веб-технологиям. Специализируется на реализации учебных и профессиональных
+проектов для ведущих IT-компаний региона
+</p>
+<p class="text-wrapper-17">
+Эксперт по проектированию и разработке пользовательских интерфейсов. Куратор направлений IT-подготовки
+талантливых и одаренных детей. Эксперт чемпионата «Молодые профессионалы» по компетенции «Машинное обучение
+и большие данные» (WorldSkills Россия)
+</p>
+<p class="text-wrapper-18">
+Управляющий партнер и технический директор digital-интегратора «Цифровой элемент». Эксперт в области
+веб-разработки, разработки и внедрения корпоративных порталов, мобильной разработки и digital-маркетинга
+</p>
+<p class="text-wrapper-19">
+Директор digital-компании Sole IT, сертифицированный продакт-менеджер, автор книги по управлению цифровыми
+продуктами. Международный эксперт WorldSkills
+</p>
+<p class="text-wrapper-20">
+Геймдизайнер. Погружает в игровую индустрию и помогает командам раскрыть свой потенциал
+</p>
+<img class="image-7" src="img/сергей чеботарев.png" />
+<img class="image-8" src="img/Лариса Овсяницкая.png" />
+<img class="image-9" src="img/Юлия Мухина.png" />
+<img class="image-10" src="img/Лилия Хаятова.png" />
+<div class="text-wrapper-21">Лариса Овсяницкая</div>
+<div class="text-wrapper-22">Юлия Мухина</div>
+<div class="text-wrapper-23">Лилия Хаятова</div>
+<div class="text-wrapper-24">Ярослав Голуб</div>
+<div class="text-wrapper-25">Сергей Чеботарев</div>
+<div class="text-wrapper-26">Роман Тарасенко</div>
+<div class="text-wrapper-27">Леонид Лапидус</div>
+<div class="text-wrapper-28">Михаил Мажухин</div>
+</div>
+<div class="overlap-7">
+<div class="element-2">
+Приемная комиссия<br />_____________________________<br /><br />Кабинет&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;406<br />_____________________________<br /><br />Телефон&nbsp;&nbsp;8
+(351) 202-00-73<br />_____________________________<br />Почта&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pk@midis.ru<br />_____________________________
+</div>
+<div class="rectangle-2"></div>
+</div>
+<div class="overlap-8">
+<div class="element-3">
+Приемная комиссия<br />_____________________________<br /><br />Кабинет&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;406<br />_____________________________<br /><br />Телефон&nbsp;&nbsp;8
+(351) 202-00-73<br />_____________________________<br />Почта&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pk@midis.ru<br />_____________________________
+</div>
+<div class="rectangle-2"></div>
+</div>
+<div class="overlap-9">
+<div class="element-4">
+Приемная комиссия<br />_____________________________<br /><br />Кабинет&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;406<br />_____________________________<br /><br />Телефон&nbsp;&nbsp;8
+(351) 202-00-73<br />_____________________________<br />Почта&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pk@midis.ru<br />_____________________________
+</div>
+<div class="rectangle-2"></div>
+</div>
+<div class="overlap-10"><div class="text-wrapper-29">Full Stack разработчик веб-приложений</div></div>
+<div class="overlap-11"><div class="text-wrapper-29">Backend-разработчик веб-приложений</div></div>
+<div
+class="overlap-12"><div class="text-wrapper-30">Frontend-разработчик веб-приложений</div></div>
+<div class="overlap-13"><div class="text-wrapper-31">Программист на C#</div></div>
+<div class="overlap-14"><div class="text-wrapper-32">IT product manager</div></div>
+<div class="overlap-15"><div class="text-wrapper-29">Разработчик баз данных</div></div>
+<div class="overlap-16"><p class="text-wrapper-33">Full Stack разработчик мобильных приложений</p></div>
+<img class="image-11" src="img/футер.png" />
+</div>
+</div>
+</body>
+</html>
